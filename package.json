@@ -1,0 +1,29 @@
+{
+  "name": "sellhouseback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ],
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
+  },
+  "author": "VladosK0k0s",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "json-to-csv": "^1.0.0",
+    "json2csv": "^5.0.0"
+  }
+}
